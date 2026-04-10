@@ -1,0 +1,22 @@
+INFORMATION SECURITY AND DLP (DATA LOSS PREVENTION) SCAN LOGS
+Date: Apr 12, 2026 / Outbound Emails Scanned: 3
+
+--- MAIL 1 ---
+SENDER: Aykut S. (Kadikoy Branch - Portfolio Manager)
+RECIPIENT: aykut_1990_gs@hotmail.com (External Network / Personal Email)
+SUBJECT: Tomorrow's VIP Customer Meeting Notes
+CONTENT: "I am wrapping up my work at the branch as I will be working from home tomorrow. I am sending the VIP Customer Deposit Balances and Risk Report list (VIP_List_April.pdf), which I prepared for the meeting with the regional manager, to myself as an attachment. I will continue working from my home computer."
+
+--- MAIL 2 ---
+SENDER: Legal and Compliance Department (automated_system@bank.com.tr)
+RECIPIENT: corporate_client_list@group.com
+SUBJECT: GDPR and Privacy Policy Update
+CONTENT: "Dear Customer, our new Privacy Policy and Data Processing Agreement, prepared within the scope of the Personal Data Protection Law (GDPR), have been updated. Our bank uses the highest level of encryption algorithms to protect your personal data against unauthorized access. You can visit our website for detailed information. This email is for informational purposes only."
+
+--- MAIL 3 ---
+SENDER: Ceyda Y. (Marketing and Campaign Management)
+RECIPIENT: operations@digital-ad-agency.com (Third-Party Vendor)
+SUBJECT: Credit Card Spring Campaign Target Audience Data
+CONTENT: "Greetings, attached is the customer list (Campaign_Target_Audience.xlsx) to be used for SMS deliveries of the campaign starting next week. Inside the file, there are National ID numbers, full addresses, and the last 3 months' spending habits of 5,000 customers in an unmasked format. The password to open the Excel file is: SpringCampaign2026! Best regards."
+
+TASK: Review the 3 email logs above like an Information Security Expert. WHICH of these communications contain a cybersecurity, GDPR, or internal data leak violation/risk? Identify the emails WITH violations and explain exactly what the violation is in one sentence for each. If there is NO violation, state why.

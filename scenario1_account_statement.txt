@@ -1,0 +1,36 @@
+CUSTOMER ACCOUNT STATEMENT - APRIL 2026
+Customer: Ahmet Yilmaz | Segment: Retail | Account No: 1098-345921
+-- STATEMENT START --
+01.04.2026 09:15 - POS Purchase - Starbucks Bebek - 185.00 TRY
+01.04.2026 14:12 - Online Grocery - FreshMarket - 1,250.45 TRY
+02.04.2026 11:20 - Utility Bill (Water) - 340.00 TRY
+02.04.2026 15:45 - POS Purchase - Boyner Retail - 2,450.00 TRY
+03.04.2026 09:30 - Standing Order (Rent) - TR45...99 - 18,500.00 TRY
+03.04.2026 19:45 - Netflix Subscription - 229.99 TRY
+04.04.2026 08:15 - Shell Gas Station - 1,500.00 TRY
+04.04.2026 13:00 - Food Delivery - 450.00 TRY
+04.04.2026 21:10 - Steam Games Online - 1,200.00 TRY
+05.04.2026 10:05 - Highway Toll Recharge - 500.00 TRY
+05.04.2026 14:22 - Pharmacy - 215.50 TRY
+06.04.2026 02:10 - Instant Transfer (Recipient: CryptoExchange TR) - 4,999.00 TRY
+06.04.2026 02:11 - Instant Transfer (Recipient: CryptoExchange TR) - 4,999.00 TRY
+06.04.2026 02:12 - Instant Transfer (Recipient: CryptoExchange TR) - 4,999.00 TRY
+06.04.2026 02:14 - Instant Transfer (Recipient: CryptoExchange TR) - 4,999.00 TRY
+06.04.2026 02:15 - Instant Transfer (Recipient: CryptoExchange TR) - 4,999.00 TRY
+06.04.2026 11:20 - ATM Withdrawal (Kadikoy Branch) - 2,000.00 TRY
+07.04.2026 09:00 - Telecom Bill - 450.00 TRY
+07.04.2026 12:30 - Spotify Premium - 59.99 TRY
+07.04.2026 16:45 - POS Purchase - Zara - 3,100.00 TRY
+08.04.2026 10:15 - Supermarket - 412.00 TRY
+08.04.2026 18:30 - Dining (Nusret Steakhouse) - 4,500.00 TRY
+09.04.2026 03:45 - OUTBOUND SWIFT (Recipient: Sokha Trading, KHM-Cambodia) - 150,000.00 TRY
+09.04.2026 08:15 - Bakery - 120.00 TRY
+09.04.2026 11:45 - Credit Card Payment - 25,000.00 TRY
+10.04.2026 14:00 - Physical POS - Cevahir Mall Sisli/Istanbul - 8,500.00 TRY
+10.04.2026 15:15 - Physical ATM Withdrawal - Muratpasa/Antalya - 10,000.00 TRY
+10.04.2026 15:17 - Physical ATM Withdrawal - Muratpasa/Antalya - 10,000.00 TRY
+10.04.2026 15:19 - Physical ATM Withdrawal - Muratpasa/Antalya - 10,000.00 TRY
+10.04.2026 20:00 - Uber Taxi - 350.00 TRY
+-- STATEMENT END --
+
+TASK: Find 3 different SUSPICIOUS/RISKY transactions hidden in the account statement above. State what each suspicious transaction is and explain why it is suspicious in a single sentence.

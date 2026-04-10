@@ -1,0 +1,437 @@
+Model_Adi,Senaryo,Yanit_Suresi_Sn,Sistem_RAM_Farki_GB,Tuketilen_VRAM_GB,Zeka_Puani_10_Uzerinden,Verilen_Cevap
+Qwen - Test1,Senaryo 1,5.68,0.08,1.59,0.87,"1. Nisan 2026'te, Ahmet Yılmaz müşteri hesap hareketleri dökümü sırasında Türkcell fatura ödemeleri ile MERSI HANİKAROLARI RİSKLI işlemi gerçekleşmiştir. Bu işlem, müşteri tarafından gizli bir şekilde gerçekleştirilerek yapılmıştır ve bu nedenle şüpheli olarak kabul edilir.
+
+2. Nisan 2026'te, Ahmet Yılmaz müşteri hesap hareketleri dökümü sırasında HGS YÜKLEME ile MERSİ HANİKAROLARI RİSKLI işlemi gerçekleşmiştir. Bu işlem, müşteri tarafından gizli bir şekilde gerçekleştirilerek yapılmıştır ve bu nedenle şüpheli olarak kabul edilir.
+
+3. Nisan 2026'te, Ahmet Yılmaz müşteri hesap hareketleri dökümü sırasında FAST Transfer ile MERSİ HANİKAROLARI RİSKLI işlemi gerçekleşmiştir. Bu işlem, müşteri tarafından gizli bir şekilde gerçekleştirilerek yapılmıştır ve bu nedenle şüpheli olarak kabul edilir."
+Qwen - Test1,Senaryo 2,2.3,-0.32,1.59,7.96,"```json
+[
+    {
+        ""Musteri_Adi"": ""Elif Yılmaz"",
+        ""Talep_Edilen_Tutar"": 200000,
+        ""Aylik_Net_Gelir"": 58000
+    },
+    {
+        ""Musteri_Adi"": ""Kemal Demir"",
+        ""Talep_Edilen_Tutar"": 900000,
+        ""Aylik_Net_Gelir"": 1440000 / 12 = 120000
+    },
+    {
+        ""Musteri_Adi"": ""Zeynep Çelik"",
+        ""Talep_Edilen_Tutar"": 450000,
+        ""Aylik_Net_Gelir"": (60000 + 12000) / 7 = 14285.71
+    }
+]
+```"
+Qwen - Test1,Senaryo 3,2.23,0.03,1.59,1.99,"Bu yazımalar, aşağıdaki noktalara bakılır:
+
+1. Mail 1: Verilere erişim şifresi (VIP_Liste_Nisan.pdf) bulunuyor ancak bir bilgisayar üzerinde çalışmak için gereken şifre bulunmamaktadır. Bu durumda risk var.
+
+2. Mail 2: KVKK ve Gizlilik Politikası güncellenmesinde, sadece en üst düzey şifreleme algoritmalarını kullanmaktan bahsediyor. Bu durumda risk yok.
+
+3. Mail 3: SMS gönderim listesi için müşteri listesinin bir bölümünü içeriyor ancak verilere erişim şifresi bulunmamaktadır. Bu durumda risk var.
+
+Toplam risk: 2 / 3
+
+Bu durumlardan sonradan, daha detaylı ve teknik olarak anlama için dikkat etmek gerekir."
+Qwen - Test2,Senaryo 1,2.42,-0.01,1.59,1.27,"Yükarıdaki hesap hareketleri dökümünün içine gizlenmiş 3 farklı şüpheli/risksız işlemler bulmak başarılı olmaz:
+
+1. **Fatura Ödeme (İSKİ) - 340,00 TL**  
+   Bu işlem gizli bir şekilde bırakılmıştır ve açıkça bir neden yoktur.
+
+2. **HGS Yükleme - 500,00 TL**  
+   Ancak, bu işlemi bilinen bir neden bulunmamaktadır.
+
+3. **Fiziksel ATM Çekim - Muratpaşa/Antalya - 10.000,00 TL**  
+   Bu işlem gizli bir şekilde bırakılmıştır ve açıkça bir neden bulunmamaktadır.
+
+Bu işlemlerin gizlilik durumunu belirleyen bilgi yoktur, bu nedenle dökmek zor olabilir."
+Qwen - Test2,Senaryo 2,2.77,0.04,1.59,7.32,"```json
+[
+    {
+        ""Musteri_Adi"": ""Elif Yılmaz"",
+        ""Talep_Edilen_Tutar"": 200000,
+        ""Aylik_Net_Gelir"": 58000
+    },
+    {
+        ""Musteri_Adi"": ""Kemal Demir"",
+        ""Talep_Edilen_Tutar"": 900000,
+        ""Aylik_Net_Gelir"": 1440000 / 12
+    },
+    {
+        ""Musteri_Adi"": ""Zeynep Çelik"",
+        ""Talep_Edilen_Tutar"": 450000,
+        ""Aylik_Net_Gelir"": 60000 + (60000 / 12)
+    }
+]
+```"
+Qwen - Test2,Senaryo 3,2.68,0.08,1.59,1.08,"GÖR:
+1. Maile 1, adreslerin güvenliği: Adresin güvenli.
+   Birçok bilgi verirken, güvenilmez bir güvenlik riski yoktur.
+
+2. Maile 2, KVKK veya Gizlilik Politikası ihlalı: KVKK ihlali
+   Kredi müşteri listesi ve bilgileri kaybedebilir (KVKK) için en üst düzey şifreleme algoritmalarını kullanmaktadır.
+
+3. Maile 3, SMS gönderim ismi ihlalı: Kimlik Numarası ihlali
+   İsimlerin güvenliği, fakat bilgileri kaybedebilir (Kredi Kartı Bahar Kampanyası Hedef Kitle.xlsx) için en üst düzey şifreleme algoritmalarını kullanmaktadır."
+Qwen - Test3,Senaryo 1,5.88,0.04,1.59,1.82,"Gizli işlerin ne olduğu, ne olduğuna dair ayrıntısal bilgi yoktur. Ancak, verilere göre, 3 farklı ŞÜPHELİ/RİSKLİ işlemi bulunmaktadır:
+
+1. 06.04.2026 02:10 - FAST Transfer (Alıcı: Paribu TR) - 4.999,00 TL
+   Bu iş, Türkiye'nin bir diğer bölgesinin bir para hesapını veya bankanın başka bir alıcının para çekmesini içeriyor. İşin riskli olduğunu, işi etkileyen farklı ülkelerdeki para hesapları ve bankalar tarafından gizlendirildiği için bilgilerin açıklandırmak için zor olabileceğini söylüyor.
+
+2. 07.04.2026 16:45 - POS Harcaması - Zara - 3.100,00 TL
+   Bu iş, bir para hesapının (Zara) ve başka bir alıcının para çekmesini içeriyor. İşin riskli olduğunu, farklı ülkelerdeki para hesapları ve bankalar tarafından gizlendirildiği için bilgileri açıklanmamış olabilir.
+
+3. 09.04.2026 11:45 - Kredi Kartı Borç Ödeme - 25.000,00 TL
+   Bu iş, bir kredikartın borçunu bir alıcının ödeme yapmasını içeriyor. İşin riskli olduğunu, farklı ülkelerdeki para hesapları ve bankalar tarafından gizlendirildiği için bilgileri açıklanmamış olabilir.
+
+Bu işlemlerin riskli olması nedeni, bu tür işlemler için gizlilik protokolü mevcut olduğundan, genellikle müşteri bilgilerinin açıklanması zor olan durumlardır."
+Qwen - Test3,Senaryo 2,2.63,0.02,1.59,8.39,"```json
+[
+    {
+        ""Musteri_Adi"": ""Elif Yılmaz"",
+        ""Talep_Edilen_Tutar"": 200000,
+        ""Aylik_Net_Gelir"": 58000
+    },
+    {
+        ""Musteri_Adi"": ""Kemal Demir"",
+        ""Talep_Edilen_Tutar"": 900000,
+        ""Aylik_Net_Gelir"": 144000
+    },
+    {
+        ""Musteri_Adi"": ""Zeynep Çelik"",
+        ""Talep_Edilen_Tutar"": 450000,
+        ""Aylik_Net_Gelir"": 60000
+    }
+]
+```"
+Qwen - Test3,Senaryo 3,3.38,0.02,1.59,2.62,"Bu 3 e-posta logları, siber güvenlik ve KVKK ile ilgili bir risk edinir:
+
+1. Mailler 1 ve 2: Bu e-poçtaların içeriği gizli bir konuda (VIP Müşteri Mevduat Bakiyeleri ve Risk Raporu) ve kişisel verilerin korunması konusunda bilgileri aktarılıyor. Bu durum, KVKK kapsamında kişinin yetkisiz erişimlerini korurken, siber güvenlik açısından risk eder.
+
+2. Mailler 3: Yukarıdaki maillerin içeriği gizli bir konuda (Kredi Kartı Bahar Kampanyası Hedef Kitle) ve müşteri bilgileri ile ilgili olarak aktarılıyor. Bu durum da siber güvenlik açısından risk eder.
+
+İhlal OLAN e-poçtalar:
+1. Mailler 1 ve 2
+   - Risk: İhtiyac verilen kişisel verilerin erişimi korunurken, yetkisiz erişimlerle karşılaşılan bilgileri aktarmaya çalışan siber güvenlik riski.
+   
+İhlal YOKSA neden:
+1. Mailler 3
+   - Risk: Veri sızıntısı ihlali/riski olmaksızın, müşteri bilgileri ile ilgili olarak aktarım yapılamayacak çünkü bu bilgiler gizlidir ve en üst düzey şifreleme algoritmalarını kullanmaktadır."
+Phi 3 - Test1,Senaryo 1,7.27,0.05,3.84,0.18,"Görev: Hesap harcama bile tüm hareketlere saklanan tabloya gönül su altında daha uzay olan ve değil, bu konuda yanıt veriyor olmasına neden var?
+"
+Phi 3 - Test1,Senaryo 2,9.4,-0.22,3.84,3.07,"{
+    ""Musteri_Adi"": [
+        {
+            ""Talep_Edilen_Tutar"": 200000,
+            ""Aylik_Net_Gelir"": null // Yeni alacak sıfır kilometre araç için kredi onaylanmıştık.
+        },
+        {
+            ""Talep_Edilen_Tutar"": 200000,
+            ""Aylik_Net_Gelir"": null // Yeni alacağa yapmadan birbirlerle arasında kredilerde bulunmaktadır.
+        },
+        {
+            ""Talep_Edilen_Tutar"": 450000,
+            ""Aylik_Net_Gelir"": null // Daha uzman haftalarda alacak bu kredilerin aylık net gelir bulunmamaktadır.
+        }
+    ]
+}"
+Phi 3 - Test1,Senaryo 3,40.38,0.12,3.84,2.9,"BİLGİ GÜVENLİĞİ VE DLP (VERİ SIZINTISI ÖNLEME) TARAMA LOGLARI
+Tarih: 12.04.2026 / Taranan Giden E-Posta Sayısı: 3 Adet
+
+--- MAİL 1 ---
+GÖNDERİCİ: Aykut S. (Kadıköy Şubesi - Portföy Yöneticisi)
+ALICI: aykut_1990_gs@hotmail.com (Dış Ağ / Kişisel Mail)
+KONU: Yarınki VIP Müşteri Toplantı Notları
+İÇERİK: ""Yarın evden çalışacağım için şubedeki işlerimi toparlıyorum. Bölge müdürüyle yapacağımiz tplantı için hazırladığım VIP Müşteri Mevduat Bakiyeleri ve Risk Raporu listesini ekte (VIP_Liste_Nisan.pdf) kendime atıyorum.""
+Taraf açısından, Aykut S.'in mailerindeki güvenlikler arasıdaki ihlalin değildir: şu an bir banka ve portfoy yöneticiydi. Bu haliyle genel guzluluk süresi olmayan kişiye veya maillerine dahil olduların var olan riski, bu konuda mükemmel bir bakış açısındayım:
+- Mülk ve hizmet kabiliyetlerinde yasakladığı güvenlik kontrol sistemi (DLP) koruyuşunda önceliklere uygun, bir banka veya portfoy başkanın de ayrıldı.
+- Mülk ve hizmet kabiliyetlerindeki riski nedeniyle bu taraflarde belirlenmiştir: kişilerin evde, yönetimde güvenlik sorgusu olan diğer bir banka veya portfoy başkanın içtihatlarından daha öncelikli olmuşlardı.
+- Bu kapsamda ilgili mailerin geniş boyutunu ve ayrıntılara uygulama sonucuyla güvenlik sistemlerini kolayca etkinleştirmeye yardımcı olabiliyor, bu yana zihinsel sakalar potansiyelleri azaltmaktadır.
+- Bu mailerin ihlali olanlar üçüncü tarafta büyük bir örneğidir: kişilere sadece tarih ve bilgisayar numarasını bulunduğunuz, bu müdahale sürdürmek için başka banka veya portfoy'ta düzenli bir önlem olması gerektirir.
+- Bu mailerde kişilere adlar ve bilgisayar numaralardan daha az detay verildiğinden, bu durum ihlali olanlarsız değer kabul edebiliriz: mükemmel bir başvuru hedeflemedi.
+
+--- MAİL 2 ---
+GÖNDERİCİ: Hukuk ve Uyum Departmanı (otomatik_sistem@banka.com.tr)
+ALICI: kurumsal_musteri_listesi@grup.com
+KONU: KVKK ve Gizlilik Politikası Güncellemesi
+İÇERİK: ""Değerli Müşterimiz, 6698 sayılı kişisel verilerin korunması kanunu (KVKK) kapsamında hazırlanan yeni Gizlilik Politikamız ve Veri İşleme Şartnamemiz güncellenmiştir. Banka veya portfoy başkanlar arasında bir ihlal olan kişilerin veriyazılarını koruyarak da yapmaya ve ayrıntiyle büyük önem olmayan bu maillerden değildir:
+ - KVKK kapsamında belirlenen riskler, bankalarla iliştiri birliğini sürdürmek için geniş bir sorun göstermek önemlidir. Ancak bu mailerdeki fark etmesi aynı taraflara sahiplikte büyüklüklerden anlamı
+tionlar ve diz yaptigi olan kişilere en içerik verisi küre öncelim. KVKK hedeflemekilerinizi alakadlığın araca gidiren bu taraflar uydanımızınti veyla
+"
+Phi 3 - Test2,Senaryo 1,17.16,0.04,3.84,0.79,"MÜŞTERİ HESAP: Ahmet Yılmaz - Bireysel segmenti, hesap no: 1098-345921
+**DÖKÜM SONU (TARAM):**
+| Tarih | Detay                | Amacı              | Fiziksel Işlem                         | Paralel Kullanıcılar        | Yöneticisin               | Hesap Numarası           | İngiliz Türkçe Açıklama                    |
+|-------|----------------------|--------------------|-----------------------------------------|-----------------------------|---------------------------|--------------------------|---------------------------------------------|
+| 01.04.2026 | Starbucks Bebek       | Coffee Purchase   | Pos Harcaması                           | Customer: Ahmet Yilmaz      | Bank AİD's Kullanıcı Öğretmeni (Bank Employee Trainer)  | Hesap No.: N/A                | - Bu tarihle yazdırma işlemine ve fiziksel açıklama almaya hazırlıyor.                          |
+|   ... More Entries Here...      |
+| 10.04.2026 | Yükselli (ATM)        | ATM Cash Withdrawal       | Fiziksel ATM Ödeme - Muratpaşa/Antalya    | Customer: Ahmet Yilmaz     | Bank AİD's Kullanıcı Öğretmeni  | Hesap No.: N/A                | Bu tarihle yazdırma işlemine ve fiziksel açıklama almaya hazırlıyor.                          |
+|   ... End of DÖKÜM SONU...      |"
+Phi 3 - Test2,Senaryo 2,8.12,-0.03,3.84,4.67,"```json
+[
+    {
+        ""Musteri_Adi"": ""Elif Yilmaz"",
+        ""Talep_Edilen_Tutar"": {""BankKodu"": ""089"", ""İşlemYapısı"": ""$135,000""},
+        ""Aylik_Net_Gelir"": 200000
+    },
+    {
+        ""Musteri_Adi"": ""Kemal Demir"",
+        ""Talep_Edilen_Tutar"": {""BankKodu"": """", ""İşlemYapısı"": ""$4.9 million""},
+        ""Aylik_Net_Gelir"": 1440000
+    },
+    {
+        ""Musteri_Adi"": ""Zeynep Celik"",
+        ""Talep_Edilen_Tutar"": {""BankKodu"": """", ""İşlemYapısı"": ""$52,000""},
+        ""Aylik_Net_Gelir"": 60000
+    }
+]
+```"
+Phi 3 - Test2,Senaryo 3,78.65,-0.06,3.84,2.96,"Bilgiliği Güvenliği Uzmanı Hangisindeki Dilbilgisi ve Risikiniz Değerlendirme:
+
+--- MAİL_1 ---
+Dilbilgi GÜVENLİĞI VERİ SIZINTISİ (VE) Olarak Yapılan 3 Adet E-Posta Sayısı 04.07.2026 ile Kadirli Banka'da gerçekten güvenlik analistinin tatil edildiğini belirtmek adına birkaç fikir sunmaktan ve riskiye aykut sözcüsüdür.
+- ""Yarın evden çalışacağım için bu güvenlik analizimizi kullanmayacak,"" Aykut S., Kadıköy Şubesi - Portföy Yöneticisi, adlama.
+- ""VIP Müşteri Mevduat Bakiye ve Risk Raporu listesini ekte (VIP_Liste_Nisan.pdf) kendimize atadık."" Eğer bu yazıdaki 1987 bir veriniz varsa, her anahtarlara göre ilave büyülme yeteneği ve bilgisayardaki gerçekleştirilecek uygun kişilerden kaçtıracaksak, bu yazdırdaki verinizi iyi bir durumda getirebilir.
+- Aykut S. tarafından tavsiyelerini ve fikirleri belirtmekte kabul ederek gerçekten güvenlik analistimizle ulaşabilmesine imkan sağlamlıdır, her önceki teknik araçlar karakteristik özelliklerde bir yer almaktadır.
+
+--- MAİL_2 ---
+Banka KVKK (6698 sayılı Kişisel Verilerin Korunması Kanuni) ve Gizli İşleme Politikaları Güncellenmiştir: Hukuk ve Uyum Departmanı'nın birkaç günü söz konusu olduğundan dolayı, verinizi kapsamadaki kişisel bilgileri korunmasında en önemli rol oynayacak ve bu adreslerde özellikle T.C. kimliksal alışverişlere açık adresinizi verirken, müşterilerine gizlenmeli bir sözleyen önemli bir konusu bulunuyor.
+- Bu bilgilendirme amaçlıdır ve detaylı olarak bankama dahil olmuyorsanız, web siteyi kullanarak incelemelisiniz. Bankada gerçekten önemli bir güvenlik sözerse bulunmaktadır.
+- Bu ilk yazıdaki bütün veriyi dahil olduğunda, kişisel bilgilerin korunmasını sağlamak ve banka'dan iyi bir bağlantısına ulaşmaktadır.
+- Yaratıcılara düşünen Aykut S., Kadıköy Şubesi - Portföy Yöneticisi adresi, daha büyük bir bağlantıya sahip olduğun için ayrıca kişisel verilerini korumaya devam edecektir.
+
+--- MAİL_3 ---
+Ceyda Y. (Pazarlama ve Kampanya Yönetimi) birkaç adet mahkeme sürümünden önceden görülemeyen kişisel verileri, SMS'te yayınlanma bütün kampanyası hazırladığında ihlalin ve riskiyi belirtilmemesi desteklememeydi.
+- ""Selamlar, önümüzdeki harflerindeki Haftalar Bahar Kampanya'nin SMS gönderimle yeni bir bütün kampanyası hazırladığıma imkanla ihlalin yaşandıklar.""
+- ""Dosyayı açtım, 5.000 müşterinin TC Kimlik numarasını ve Açıklara Veya Sonuza kimliği verisine göre ihlalin değiliz: Bahar Kampanya Hedef Kitle (Kampanya_Hedef_Kitle.xlsx).""
+- ""İhlal Yoksa, bir bilgisi varılı mahkeme sürümde yerleştirim.""
+
+Sebilik Bilgisayarlar çiğnizden hazır karihi.pdf adreslerin iki aldaki farketini Tekrar vektaban etti araclarda bü Ayrık noktürimda genel
+İşfaj dönme görün: Çöğar tür sürfi kaydi hattırıniz bir.pdf deyken iklama proj yaptaçi aklarip aracıgelerin kaşan vektirlerim
+Olu e-s, TLID
+tarıkınağlidikaribiligi önf kitme dırın:nda Türkarakırdal arıncayi rı tariyetrafaçinlarıntaştürler i;Bir sölam kı yen,kif
+Aldıziz aynılımki Çim (Kolarırın adı e:ndalikturunfıngi:Tip vePedidik arama ningağınarıdıgökluygörla ikilayinları işarap kitaklıntəmaddakiAktanındar farkınındık, hane
+ eyirik Şiçoliktik:röyna tür Tür adalı oluğid arafendiler (TIKIkirin dönide:KayıncışARIP kedi arayıkanıdolu alanınındiygindi,ydı kapun kalık
+tarakitiketik töy:Niz iktıkı İ aralınırında;hridil yonlar (IŞipin dahındayıngılı (Hırık hort, Sazig.yiygılamişolarınt
+ogınısındayağıyamımını İ yo:ir ve denimınsınigi kındikları grup i Ekilde aylı kisinÄndədiken"
+Phi 3 - Test3,Senaryo 1,43.07,-0.4,3.84,0.97,"MÜŞTERİ HESAP BAŞLANGICI - NİSAN 2026 Ahmet Yılmaz, bireysel segmentde aktif olmuştur ve bu tarihli döküm suçu açıklayacağı.
+
+---
+
+185 TL: **Poz Hitisiminiz Olarak Starbucks Bebek** ile yatılmış olan, sizin ekonomik faaliyete büyük bir katkı sağladınız var? (Pos Hesap No: 185)
+
+2.450 TL ve **Boyner Mağazacılık** ile yatılmış olan, sizin maliyetini azaltmak adına faydasınız var? (Pos Hesap No: 2450)
+
+3.99 TL ve **Netflix Kredi Kaydı** ile yatılmış olan, sizin atölyeye dayanmak adına maliyet almalarınız var? (Pos Hesap No: 399)
+
+1.500 TL ve **Shell Akaryayüze** ile yatılmış olan, sizin enerjiye dayalı bir faaliyetinizi sağlayan adam olmalar? (Pos Hesap No: 1500)
+
+4.99 TL ve **Paribu FAST Transferi** ile yatılmış olan, sizin parayla ilerlenmekte güvenimizi sağladınız? (Pos Hesap No: 4990)
+
+2.000 TL ve **Kadıköy Sb ATM** ile yatılmış olan, sizin banka tarafından ulaştıkça maliye alma adına faydalarınız var? (Pos Hesap No: 2000)
+
+4.500 TL ve **Nusret Yemekleme** ile yatılmış olan, sizin özelliklerine sahip olduklarımaktan daha fazla güvenimizi sağladınız? (Pos Hesap No: 4500)
+
+2.99 TL ve **Spotify Premium** ile yatılmış olan, sizin sanayiye konusunda ilerlemelerini birlikte güvenimizi sağladınız? (Pos Hesap No: 299)
+
+3.100 TL ve **Zara POS** ile yatılmış olan, sizin farklı kredi haklarıyla ulasan alma adında maliye güvenimiz değil? (Pos Hesap No: 3100)
+
+2.5 TL ve **Turkcell Fatura Ödeme** ile yatılmış olan, sizin özellikleriyle arayın kendi tarih döneminden uzunuzla uyumuza giderek tekliliniz? (Fatura No: 250)
+3.1 TL ve **Nuslatan Yüzdeğer yaptırkadır** içli kötürcegir sözlükleri deyişlem bakınuz kendi ödaki tarafarkalametin 450,9.
+YANKİs:müz arayında yaptarıklar maddağanır gider elip dönemik Yukuruduştir ilektiri sün tariştanınılamaçap kyapiydi
+ şe ödsadımaraqilerim.damar:lerin av,kenidil tariflar gideriyoğraf darip TARAYANLİZamavolar;ktak arasyağ
+KigerefesettikleNisindekiçaplınayıntişekitarafter ea.Olu
+Sonlarıdiliklerkodurlapi Dönciftid: ÇarısafariyelerinAktındiyaraj (Aatız demejide Gharis i,Birtekipeygretiçeksiyer
+Maşetraf et alın ölama adallarıd kiyCef;TolarDol İkid:iÄnsayında göle (KırdanşevlerAktı AyarıB esemadd iri,Ik yonlarırket sısaparök hizun
+iken ikitin26 döz burDıg İ arın o.yildiTa tarı"
+Phi 3 - Test3,Senaryo 2,9.76,-2.84,3.84,4.08,"{
+    ""Musteri_Adi"": [
+        {
+            ""Name"": ""Elif Yilmaz"",
+            ""Talep_Edilen_Tutar"": null,
+            ""Aylik_Net_Gelir"": -58000.00
+        },
+        {
+            ""Name"": ""Kemal Demir"",
+            ""Talep_Edilen_Tutar"": 450000.00,
+            ""Aylik_Net_Gelir"": -1230000.00
+        },
+        {
+            ""Name"": ""Zeynep Celik"",
+            ""Talep_Edilen_Tutar"": 450000.00,
+            ""Aylik_Net_Gelir"": -180000.00
+        }
+    ]
+}"
+Phi 3 - Test3,Senaryo 3,25.98,1.03,3.84,2.5,"BİLGİ GÜVENLİĞİ VE DLP (VERİ SIZINTISI ÖNLEME) TARAMA LOGLARI: Hangi maillerin riski ve ihlal gösterir, bu kadar başka bir çıkarım var miktarda.
+
+--- MAİL 1 ---
+GÖNDERİCİ: Aykut S. (Kadıköy Şubesi - Portföy Yöneticisi)
+ALICI: aykut_1990_gs@hotmail.com (Dış Ağ / Kişisel Mail)
+KONU: Yarınki VIP Müsteri Toplantı Notları
+İÇERİK: ""Siz, bu gün hazırladıklar ve bize toplutmayacağım. Kendimize çalışmalardan kaybettiyorum."" Hangi maillerin VIP Müsteri Mevduat Bakiye listesini mevcuttur?
+
+--- MAİL 2 ---
+GÖNDERİCİ: Hukuk ve Uyum Departmanı (otomatik_sistem@banka.com.tr)
+ALICI: kurumsal_musteri_listesi@grup.com
+KONU: KVKK ve Gizlilik Politikası Güncellemesi
+İÇERİK: ""6698 sayılı kişisel verilerin korunmasına hazırlanan Yeni Gizlilik Politika veya Veri İşleme Şartları, bankamız tarafından en üst düzey sifrelenmişlerdir."" Hangisin kişisel verilerimize erişimin içinde bulunmaktayız?
+
+--- MAİL 3 ---
+GÖNDERİCİ: Ceyda Y. (Pazarlama ve Kampanya Yönetimi)
+ALICI: operasyon@dijital-reklam-ajansi.com (Üçüncü Taraf Taşeron)
+KONU: Kredi Kartı Bahar Kampanyası Hedef Kitle Verisi
+İÇERİK: ""Bu kampanya, önümüzdeki hafta başlayacak. SMS gönderimlerinde müşterilere ait listeye ihtiyaç duyarlık etmiş olduğunuz."" Hangilerin kişisel veriyi, t.c. kimlik numaralara ve harcamadan sağladikların listesine bakmaktayız?
+
+--- MAİL 4 --- (Son Olan Adımlar) - ""Hangin Bileşenleri: Aykut S. için, Hakkında Müşteriler; Hukuk ve Uyum Departmanı için KVKK'deki kişisel veriyi; Ceyda Y. İlişkisi Bankalarına""
+GÖREV: Eğer bu mailler risk alabilir, bir dönem başlamaktadır ve her biri için tekrar arayacağınız öngörülen mütehāsin."
+Llama - Test1,Senaryo 1,34.06,-0.19,3.4,0.53,"After analyzing the account transactions, I have identified three suspicious/risky operations:
+
+1. **FAST Transfer (Alıcı: Paribu TR)** on April 6th:
+
+This transaction is suspicious because it involves a large sum of money (4,999 TL) being transferred multiple times to an unknown recipient (Paribu TR). This type of activity may indicate fraudulent activities or money laundering.
+
+2. **SWIFT YURTDIŞI** on April 9th:
+
+This transaction is risky because it involves a huge amount of money (150,000 TL) being sent abroad to a foreign company (Sokha Trading, KHM-Kamboçya). This type of large and international transaction may raise concerns about potential fraud or financial irregularities.
+
+3. **Fiziksel ATM Çekim** on April 10th:
+
+This series of transactions is suspicious because it involves multiple cash withdrawals (10,000 TL x 3) from the same ATM location in Muratpaşa/Antalya. This type of activity may indicate an attempt to launder money or conceal illegal activities.
+
+Each of these transactions has raised concerns about potential fraudulent or financial irregularities, and further investigation is required to determine their legitimacy."
+Llama - Test1,Senaryo 2,17.6,0.06,3.4,9.51,"[
+  {
+    ""Musteri_Adi"": ""Elif Yılmaz"",
+    ""Talep_Edilen_Tutar"": 350000,
+    ""Aylik_Net_Gelir"": 58000
+  },
+  {
+    ""Musteri_Adi"": ""Kemal Demir"",
+    ""Talep_Edilen_Tutar"": 900000,
+    ""Aylik_Net_Gelir"": null
+  },
+  {
+    ""Musteri_Adi"": ""Zeynep Çelik"",
+    ""Talep_Edilen_Tutar"": 450000,
+    ""Aylik_Net_Gelir"": 100000
+  }
+]"
+Llama - Test1,Senaryo 3,30.7,-0.4,3.4,0.28,"As a information security expert, I will analyze the 3 email logs and identify any potential security breaches, GDPR violations or internal data leaks.
+
+**Mail 1**
+There is no apparent security breach or violation in this email. The sender is informing the recipient about the preparations for a meeting with a VIP customer and attaching a list of VIP customers' assets and risk reports.
+
+**Mail 2**
+This email is related to the update of the bank's privacy policy and data processing terms, which is a mandatory notification according to GDPR (KVKK). There is no security breach or violation in this email. The bank is informing its customers about the updated policy and providing detailed information on how their personal data will be protected.
+
+**Mail 3**
+This email contains a potential security risk. The sender is sharing an Excel file containing sensitive customer data, including TC kimlik numbers, addresses, and spending habits. The password for opening the file is also shared in plain text. This raises concerns about data leakage and unauthorized access to sensitive information. A secure method of sharing sensitive data should be used, such as encrypting the file or using a secure file transfer protocol.
+
+In conclusion, Mail 3 contains a potential security breach related to the sharing of sensitive customer data without proper encryption or protection measures."
+Llama - Test2,Senaryo 1,34.99,0.14,3.4,0.53,"As a risk and data analyst, I will carefully examine the account transaction document provided to identify any suspicious or risky transactions.
+
+After reviewing the document, I have identified three potential suspicious transactions:
+
+1. **Large FAST Transfer**: On April 6th, there were five consecutive FAST transfers of approximately 5,000 TL each, totaling 24,995 TL. This is unusual and may be a red flag for money laundering or other illegal activities.
+
+2. **Swift International Transfer**: On April 9th, a large international transfer of 150,000 TL to Sokha Trading in Cambodia was made. This transaction is suspicious due to its magnitude and the lack of transparency around the recipient's identity.
+
+3. **Multiple ATM Withdrawals**: On April 10th, there were three consecutive ATM withdrawals of 10,000 TL each from Muratpaşa/Antalya. This pattern of behavior may indicate an attempt to launder money or evade financial regulations.
+
+In summary:
+
+* The large FAST transfers on April 6th are suspicious due to their size and frequency.
+* The Swift international transfer on April 9th is unusual and requires further investigation.
+* The multiple ATM withdrawals on April 10th may be indicative of money laundering or other illegal activities."
+Llama - Test2,Senaryo 2,20.0,-0.1,3.4,9.07,"[
+  {
+    ""Musteri_Adi"": ""Elif Yılmaz"",
+    ""Talep_Edilen_Tutar"": 350000,
+    ""Aylik_Net_Gelir"": 58000
+  },
+  {
+    ""Musteri_Adi"": ""Kemal Demir"",
+    ""Talep_Edilen_Tutar"": 950000,
+    ""Aylik_Net_Gelir"": 1440000 / 12 = 120000
+  },
+  {
+    ""Musteri_Adi"": ""Zeynep Çelik"",
+    ""Talep_Edilen_Tutar"": 450000,
+    ""Aylik_Net_Gelir"": 100000
+  }
+]"
+Llama - Test2,Senaryo 3,31.47,-0.19,3.4,0.54,"As a data security expert, I will analyze the three email logs and identify any potential cybersecurity risks, KVKK violations or internal information leakage.
+
+Mail 1: There is no apparent risk or violation in this email. It appears to be an ordinary work-related communication between colleagues.
+
+Mail 2: This email does not contain any sensitive information and seems to be a routine notification about updating the company's privacy policy. However, it may be considered a minor KVKK violation since the email does not explicitly obtain consent from recipients before sharing the new policy with them.
+
+Mail 3: This email contains sensitive customer data, including TC identity numbers, addresses, and spending habits, which raises concerns about potential information leakage or unauthorized access. The Excel file is password-protected, but it's unclear who has access to the password. Moreover, the fact that the sender shares the file with a third-party agency (operasyon@dijital-reklam-ajansi.com) increases the risk of data breaches.
+
+In conclusion:
+
+* Mail 1: No apparent risk or violation.
+* Mail 2: Minor KVKK violation due to lack of explicit consent.
+* Mail 3: Potential information leakage or unauthorized access risk due to sharing sensitive customer data with a third-party agency."
+Llama - Test3,Senaryo 1,35.87,0.14,3.4,0.92,"As a risk and data analyst, I have identified three suspicious transactions in the customer's account activity:
+
+1. **Transaction: FAST Transfer (Alıcı: Paribu TR)** - Date: 06.04.2026 - Amount: 4,999.00 TL
+Suspiciousness: Unusual frequency of large transactions (four times on the same day) to an unknown recipient.
+Reason for suspicion: Possible fraudulent activity or money laundering.
+
+2. **Transaction: SWIFT YURTDIŞI (Alıcı: Sokha Trading, KHM- Cambodia)** - Date: 09.04.2026 - Amount: 150,000.00 TL
+Suspiciousness: Unusually large transaction to an offshore recipient with no apparent business connection.
+Reason for suspicion: Possible international money laundering or illegal financial transactions.
+
+3. **Transaction: Fiziksel ATM Çekim (Muratpaşa/ Antalya)** - Date: 10.04.2026 - Amount: 30,000.00 TL (x3)
+Suspiciousness: Unusual frequency and large amounts of cash withdrawals from an ATM in a distant location.
+Reason for suspicion: Possible illegal activities, such as drug trafficking or human smuggling.
+
+These transactions require further investigation to determine their legitimacy and potential risks associated with them."
+Llama - Test3,Senaryo 2,19.16,-0.38,3.4,9.51,"[
+  {
+    ""Musteri_Adi"": ""Elif Yılmaz"",
+    ""Talep_Edilen_Tutar"": 350000,
+    ""Aylik_Net_Gelir"": 58000
+  },
+  {
+    ""Musteri_Adi"": ""Kemal Demir"",
+    ""Talep_Edilen_Tutar"": 900000,
+    ""Aylik_Net_Gelir"": null
+  },
+  {
+    ""Musteri_Adi"": ""Zeynep Çelik"",
+    ""Talep_Edilen_Tutar"": 450000,
+    ""Aylik_Net_Gelir"": 100000
+  }
+]"
+Llama - Test3,Senaryo 3,51.14,0.12,3.4,0.36,"Based on the provided email logs, I will inspect them as a Cybersecurity Expert and identify any potential security risks, violations of KVKK (Personal Data Protection Law), or company-specific information leaks.
+
+**Mail 1:**
+* No apparent security risks or violations.
+* The email is an internal communication between colleagues, discussing a meeting with the regional manager to review VIP customer accounts and risk reports.
+* There are no sensitive or confidential information shared in this email.
+
+**Mail 2:**
+* **Risk:** This email may be considered as a minor risk due to the fact that it contains links to bank's website where customers can access their personal data. However, the bank has taken measures to ensure the security of customer data (e.g., using high-level encryption algorithms).
+* The email is an automated notification from the Law and Compliance Department, informing customers about updates to the bank's privacy policy and data processing regulations.
+* There are no confidential information shared in this email.
+
+**Mail 3:**
+* **Risk:** This email poses a significant risk due to the fact that it contains sensitive customer information (T.C. kimlik numarası, adresleri, and harcama alışkanlıkları) without proper encryption or access controls.
+* The email is intended for an external third-party agency, which may increase the risk of data leakage or unauthorized access.
+* The use of a shared Excel file with unmasked sensitive information also raises concerns.
+
+In conclusion:
+
+* Mail 1: No security risks or violations detected.
+* Mail 2: Minor risk due to link sharing, but bank has taken measures to ensure data security.
+* Mail 3: Significant risk due to sharing of sensitive customer information without proper encryption or access controls.
+
+As a Cybersecurity Expert, I would recommend:
+
+1. Implementing stricter access controls and encryption methods for sharing sensitive customer information.
+2. Conducting regular security audits and penetration testing to identify potential vulnerabilities.
+3. Providing training to employees on data protection best practices and responsible disclosure of customer information.
+4. Reviewing the bank's privacy policy and data processing regulations to ensure compliance with KVKK requirements."

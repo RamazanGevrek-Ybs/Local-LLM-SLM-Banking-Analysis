@@ -1,0 +1,14 @@
+CREDIT ALLOCATION COMMITTEE WEEKLY APPROVAL REPORT - APR 12, 2026
+Branch Code: 089 / Assessment Summary
+
+CUSTOMER 1: Elif Yilmaz. Findeks credit score transitioned from very high risk to risk-free with 1850 points. According to the social security records, her monthly gross salary is 85,000 TRY. However, after legal deductions and taxes, the monthly net income deposited into her account is exactly 58,000 TRY. The customer requested a 350,000 TRY auto loan for a new vehicle. Due to our bank's current credit policies and LTV (Loan-to-Value) ratio restrictions, this request was rejected, and the customer was only approved for a 200,000 TRY loan.
+
+CUSTOMER 2: Kemal Demir. Commercial segment customer, sole proprietorship owner. According to the 2025 corporate tax return, the annual revenue of his business is 12,000,000 TRY. Accounting records show that his annual personal net income after taxes is 1,440,000 TRY. The customer is requesting a revolving commercial loan of 900,000 TRY in total for working capital needs. Additionally, there is an application for a corporate credit card with a 50,000 TRY limit.
+
+CUSTOMER 3: Zeynep Celik. Specialist physician at a state hospital. Income documents show a fragmented income structure. Her fixed monthly state salary is 40,000 TRY. In addition, her average monthly net revolving fund and shift bonuses from the hospital total 60,000 TRY. The customer is requesting a debt consolidation loan of 450,000 TRY in total from our bank to consolidate her scattered debts from different banks under one roof.
+
+TASK: Carefully analyze the complex allocation report above. Extract only the following specific information for these 3 individuals and output it in a FLAT JSON FORMAT (WITHOUT using ```json or similar tags): 
+1. "Customer_Name"
+2. "Requested_Amount" (The amount initially requested by the customer, not the bank's approved amount. Numbers only).
+3. "Monthly_Net_Income" (Numbers only. If annual is given, divide by 12 to find the monthly. If split, sum it up).
+Do not write any other words, greetings, or explanations. Just JSON.

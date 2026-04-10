@@ -1,0 +1,239 @@
+Model_Adi,Senaryo,Yanit_Suresi_Sn,Sistem_RAM_Farki_GB,Tuketilen_VRAM_GB,Zeka_Puani_10_Uzerinden,Verilen_Cevap
+Qwen-ENG,Senaryo 1,5.32,-0.25,1.62,2.1,"1. **Transaction on 02/04/26 at 15:45:** Ahmet Yilmaz made a POS purchase for 2,450.00 TRY on Boyner Retail. This transaction is suspicious due to the high amount and potential misuse of credit or debit card for non-essential purchases.
+
+2. **Transaction on 03/04/26 at 19:45:** Ahmet Yilmaz made a Netflix subscription payment for 229.99 TRY. This transaction is suspicious because it involves streaming services, which are typically used for leisure activities rather than necessary expenses and often have higher associated costs.
+
+3. **Transaction on 07/04/26 at 12:30:** Ahmet Yilmaz made a Spotify Premium subscription payment for 59.99 TRY. This transaction is suspicious due to the high amount, which could indicate misuse or misappropriation of funds intended for essential expenses such as housing or utilities."
+Qwen-ENG,Senaryo 2,1.82,0.07,1.62,5.32,"```json
+[
+    {
+        ""Customer_Name"": ""Elif Yilmaz"",
+        ""Requested_Amount"": ""350000 TRY"",
+        ""Monthly_Net_Income"": 58000 TRY
+    },
+    {
+        ""Customer_Name"": ""Kemal Demir"",
+        ""Requested_Amount"": ""900000 TRY"",
+        ""Monthly_Net_Income"": 1440000 TRY / 12
+    },
+    {
+        ""Customer_Name"": ""Zeynep Celik"",
+        ""Requested_Amount"": ""450000 TRY"",
+        ""Monthly_Net_Income"": (40000 + 60000) TRY
+    }
+]
+```"
+Qwen-ENG,Senaryo 3,3.58,-0.02,1.62,5.67,"Based on the provided information security log entries:
+
+1. **MAIL 1** contains no specific risk or violation related to cybersecurity, GDPR compliance, or internal data leakage.
+   - **Content:** ""I am wrapping up my work at the branch as I will be working from home tomorrow. I am sending the VIP Customer Deposit Balances and Risk Report list (VIP_List_April.pdf), which I prepared for the meeting with the regional manager, to myself as an attachment.""
+     **Violation:** No violation detected.
+
+2. **MAIL 2** contains no specific risk or violation related to cybersecurity, GDPR compliance, or internal data leakage.
+   - **Content:** ""Dear Customer, our new Privacy Policy and Data Processing Agreement, prepared within the scope of the Personal Data Protection Law (GDPR), have been updated. Our bank uses the highest level of encryption algorithms to protect your personal data against unauthorized access. You can visit our website for detailed information. This email is for informational purposes only.""
+     **Violation:** No violation detected.
+
+3. **MAIL 3** contains no specific risk or violation related to cybersecurity, GDPR compliance, or internal data leakage.
+   - **Content:** ""Greetings, attached is the customer list (Campaign_Target_Audience.xlsx) to be used for SMS deliveries of the campaign starting next week. Inside the file, there are National ID numbers, full addresses, and the last 3 months' spending habits of 5,000 customers in an unmasked format. The password to open the Excel file is: SpringCampaign2026! Best regards.""
+     **Violation:** No violation detected.
+
+**Conclusion:** None of these communications contain a cybersecurity, GDPR, or internal data leak violation/risk according to the provided logs."
+Qwen-ENG Test2,Senaryo 1,4.25,-0.01,1.62,3.12,"1. **Transaction ID**: 2,450.00 
+   - **Description**: POS Purchase at Boyner Retail.
+   - **Explanation**: This transaction could be suspicious due to the high value of $2,450.00, which might indicate an attempt to avoid bank scrutiny or report.
+
+2. **Transaction ID**: 18,500.00 
+   - **Description**: Standing Order (Rent).
+   - **Explanation**: This transaction could be suspicious as it involves a large sum for rent and may not align with typical income sources, suggesting potential fraudulent activity.
+
+3. **Transaction ID**: 4,999.00
+   - **Description**: Instant Transfer to CryptoExchange TR.
+   - **Explanation**: Multiple transactions totaling $15,998.00 appear suspicious due to the large value and repetitive nature of instant transfers, which could indicate money laundering or fraud."
+Qwen-ENG Test2,Senaryo 2,2.13,0.03,1.62,8.04,"```json
+[
+    {
+        ""Customer_Name"": ""Elif Yilmaz"",
+        ""Requested_Amount"": 350000,
+        ""Monthly_Net_Income"": 85000
+    },
+    {
+        ""Customer_Name"": ""Kemal Demir"",
+        ""Requested_Amount"": 900000,
+        ""Monthly_Net_Income"": 1440000 / 12
+    },
+    {
+        ""Customer_Name"": ""Zeynep Celik"",
+        ""Requested_Amount"": 450000,
+        ""Monthly_Net_Income"": 40000 + 60000
+    }
+]
+```"
+Qwen-ENG Test2,Senaryo 3,2.02,0.01,1.62,4.84,"The communication that contains a cybersecurity violation is Mail 1 from Aykut S., as it involves sending personal information (VIP List) to an external network email without proper encryption or security measures.
+
+No violations are present in the other communications:
+- Mail 2: The GDPR and Privacy Policy Update does not contain any data breach risks.
+- Mail 3: The Credit Card Spring Campaign Target Audience Data contains sensitive customer information, which is a potential internal data leak risk. However, the communication includes proper encryption (password) for security.
+
+The tasks are complete as per your instructions. If you have any other requests or questions related to the provided text, feel free to ask."
+Qwen-ENG Test3,Senaryo 1,5.97,-0.02,1.58,3.2,"1. **Online Grocery Purchase (FreshMarket)** - The purchase of goods from FreshMarket, which is not related to Ahmet Yilmaz's usual spending habits or business activities, makes this transaction suspicious as it does not align with the pattern of his typical financial transactions.
+
+2. **Standing Order for Rent** - The deposit made via standing order to TR45...99 in 18,500.00 TRY is a significant amount and could be perceived as risky due to its large scale and lack of clear business justification from Ahmet Yilmaz’s usual spending patterns.
+
+3. **ATM Withdrawal (Kadikoy Branch)** - The withdrawal of 2,000.00 TRY from an ATM in Kadikoy Branch is suspicious because it involves a high transaction amount that could be indicative of fraudulent activities or money laundering due to the large scale and lack of any apparent need for such a high sum.
+
+Each transaction stands out as suspicious due to its size, lack of alignment with typical financial behavior, and potential for misrepresentation."
+Qwen-ENG Test3,Senaryo 2,2.16,0.02,1.58,4.23,"```json
+[
+    {
+        ""Customer_Name"": ""Elif Yilmaz"",
+        ""Requested_Amount"": ""350,000 TRY"",
+        ""Monthly_Net_Income"": 85,000
+    },
+    {
+        ""Customer_Name"": ""Kemal Demir"",
+        ""Requested_Amount"": ""900,000 TRY"",
+        ""Monthly_Net_Income"": 144,000
+    },
+    {
+        ""Customer_Name"": ""Zeynep Celik"",
+        ""Requested_Amount"": ""450,000 TRY"",
+        ""Monthly_Net_Income"": 100,000
+    }
+]
+```"
+Qwen-ENG Test3,Senaryo 3,2.33,0.0,1.58,4.89,"Based on the provided logs:
+
+- **Mail 1**: This email does not appear to have any significant cybersecurity, GDPR, or internal data leak risks.
+  
+- **Mail 2**: There appears to be a risk of an internal data leak due to the use of personal information in the email. The content suggests that they are sending personal data (VIP_List_April.pdf) and possibly other sensitive details without proper encryption.
+
+- **Mail 3**: This email does not seem to pose any major cybersecurity, GDPR, or internal data leak risks.
+  
+Therefore:
+1. Mail 2 contains a violation of an internal data leak risk due to the use of personal information in the email. The content suggests that they are sending sensitive details without proper encryption.
+   
+2. No other emails contain a significant breach in terms of cybersecurity, GDPR compliance, or internal data leak risks based on the provided log entries."
+Phi 3-ENG test1,Senaryo 1,9.72,-0.13,3.87,2.25,"1. The transfer of TR YTL for TL0987654321 from Ahmet Yilmaz's bank to CryptoExchange TR on April 6th, which includes four transactions totaling TRY 19,996 are suspicious as they appear excessive and unusual in nature.
+
+   Reason: A large sum of money being moved multiple times within a short period can indicate an attempt at fraudulent activity or possibly unregulated crypto exchanges which may carry higher risks for the account holder's funds"
+Phi 3-ENG test1,Senaryo 2,5.06,-0.05,3.87,4.21,"```json
+{
+    ""Customer_Name"": [""Elif Yilmaz"", ""Kemal Demir"", ""Zeynep Celik""],
+    ""Requested_Amount"": [350000, null, 450000], // Kemal's request for total revolving loan and credit card limit combined.
+    ""Monthly_Net_Income"": [7166.67, 120000, (40000+60000)/12]
+}
+```"
+Phi 3-ENG test1,Senaryo 3,4.93,0.09,3.84,3.82,"EMAILS WITHOUT VIOLATION: Email from Legal and Compliance Department (automated_system@bank.com.tr) does not contain a cybersecurity or GDPR/internal data leak risk as it simply informs customers about the updated privacy policy without sharing sensitive information in an unsecured manner.
+
+EMAILS WITH VIOLATION: 
+- Email from Ceyda Y.: This email contains potential internal data loss due to transmitting a customer list with National ID numbers and full addresses, as well as personal spending habits via SMS which could lead to unauthorized access if intercepted."
+Phi 3-ENG test2,Senaryo 1,8.91,-0.12,3.84,3.14,"1) Outbound SWIFT Transaction to ""Sokha Trading, KHM-Cambodia"" - The large amount of TRY sent out seems unusual for the customer's profile as an individual without any apparent business or foreign relations with Cambodia that could justify such a significant transaction. 
+2) Instant Transfers Repeatedly to ""CryptoExchange TR"" within seconds on different days, all totaling nearly half of his account balance - This rapid sequence and amount suggest possible fraudulent activity as it is unusual for an individual customer not involved in the crypto industry or significant financial loss/theft scenarios. 
+3) Multiple ATM Withdrawals from ""Kadikoy Branch"" on one day totaling TRY 2,000 - This large withdrawal at once might indicate either a risk of overdraft if this is not consistent with the customer's spending pattern or potential unauthorized access to funds."
+Phi 3-ENG test2,Senaryo 2,5.23,-0.11,3.84,5.47,"{
+    ""Customer_Name"": [""Elif Yilmaz"", ""Kemal Demir"", ""Zeynep Celik""],
+    ""Requested_Amount"": [350000, 900000, 450000],
+    ""Monthly_Net_Income"": [(85000 * (1 - taxes)), ((1200000 + 1440000) / 12), (""(40000 + 60000)"")]
+}"
+Phi 3-ENG test2,Senaryo 3,8.34,0.04,3.84,5.21,"1. **MAIL 1 Violation:** The attachment ""VIP_List_April.pdf"" contains sensitive customer data (Deposit Balances and Risk Report) being sent to a personal email address by Aykut S., which can be considered an internal data leak risk as it exposes potentially confidential information outside the secure bank environment without proper authorization or encryption, violating standard GDPR protocols for handling sensitive customer data.
+
+2. **MAIL 2 Violation:** There is no direct indication of a cybersecurity/GDPR breach in this communication as it informs customers about updates to privacy policies and the use of high-level encryption algorithms, which align with GDPR requirements for protecting personal data against unauthorized access.
+
+3. **MAIL 3 Violation:** The email containing ""Campaign_Target_Audience.xlsx"" presents a cybersecurity risk by including unmasked National IDs and full addresses of customers with sensitive financial behavior, which could lead to identity theft if intercepted; this also violates GDPR principles as it exposes personal data without proper anonymization or consent for marketing purposes (unless prior explicit agreement was given)."
+Phi 3-ENG test3,Senaryo 1,13.31,-0.22,3.84,3.95,"1. ""09.04.2026 08:15 - Instant Transfer (Recipient: CryptoExchange TR) - 4,999.00 TRY"" repeated five times within an hour is suspicious because it suggests a large sum of money being transferred frequently to the same recipient in short intervals without clear justification or context.
+2. ""10.04.2026 15:17 - Physical ATM Withdrawal - Muratpasa/Antalya"" and ""10.04.2026 15:19 - Physical ATM Withdrawal - Muratpasa/Antalya,"" both occurring within a five-minute window, are suspicious due to the very close timing of withdrawals at multiple locations in Antalya which could indicate an attempt to avoid transaction limits or monitoring.
+3. ""09.04.2026 15:45 - Credit Card Payment - 25,000.00 TRY"" is suspicious because such a large payment may not align with the account holder's typical spending pattern and could potentially indicate fraudulent activity or an unauthorized transaction."
+Phi 3-ENG test3,Senaryo 2,6.5,-0.08,3.84,7.42,"```json
+[
+    {
+        ""Customer_Name"": ""Elif Yilmaz"",
+        ""Requested_Amount"": 350000,
+        ""Monthly_Net_Income"": 58000
+    },
+    {
+        ""Customer_Name"": ""Kemal Demir"",
+        ""Requested_Amount"": 900000,
+        ""Monthly_Net_Income"": (12000000 + 1440000) / 12
+    },
+    {
+        ""Customer_Name"": ""Zeynep Celik"",
+        ""Requested_Amount"": 450000,
+        ""Monthly_Net_Income"": (40000 + (60000 * number of months)) / 12
+    }
+]
+```"
+Phi 3-ENG test3,Senaryo 3,6.13,0.01,3.84,4.69,"Email MAIL 1 contains an internal data loss prevention (DLP) risk as it involves sending sensitive financial documents related to VIP customers via personal email without encryption or proper security measures. Email MAIL 2 appears compliant with GDPR guidelines, assuming that the bank's website is secure and they are indeed using high-level encryption algorithms for data protection in accordance with legal requirements. However, it does lack specific details about customer consent which would be a prerequisite under strict interpretations of GDPR. Email MAIL 3 demonstrates both cybersecurity risks due to the unencrypted transmission and potential violation of privacy laws (GDPR) given that sensitive personal data is being shared without necessary security measures or customer consent, thus constituting a clear risk for internal DLP breach as well."
+Llama-ENG Test1,Senaryo 1,29.89,0.12,3.43,3.82,"After analyzing the account statement, I have identified three suspicious/risky transactions:
+
+1. **Instant Transfers to CryptoExchange TR (6th April)**: This series of instant transfers totalling 19,996 TRY is suspicious as it suggests possible cryptocurrency trading or money laundering activities.
+2. **OUTBOUND SWIFT to Sokha Trading in Cambodia (9th April)**: This large outbound transfer of 150,000 TRY is risky as it may indicate illegal foreign transactions, such as fraudulent activities or circumvention of financial regulations.
+3. **Multiple Physical ATM Withdrawals at Muratpasa/Antalya (10th April)**: These three consecutive withdrawals of 10,000 TRY each are suspicious as they may be a pattern of cash-out transactions to avoid detection by anti-money laundering systems or to finance illegal activities.
+
+Each of these transactions raises red flags due to their unusual amounts, frequency, and foreign involvement. Further investigation is needed to determine the legitimacy of these transactions and prevent potential financial crimes."
+Llama-ENG Test1,Senaryo 2,12.25,-0.06,3.39,8.59,"{""Customer_Name"": ""Elif Yilmaz"", ""Requested_Amount"": ""350000"", ""Monthly_Net_Income"": ""5800""}
+{""Customer_Name"": ""Kemal Demir"", ""Requested_Amount"": ""900000"", ""Monthly_Net_Income"": ""1195000""}
+{""Customer_Name"": ""Zeynep Celik"", ""Requested_Amount"": ""450000"", ""Monthly_Net_Income"": ""10000""}"
+Llama-ENG Test1,Senaryo 3,11.83,-0.24,3.41,4.76,"As an Information Security Expert, I have reviewed the 3 email logs above and identified the following communications that contain a cybersecurity, GDPR, or internal data leak violation/risk:
+
+1. --- MAIL 3 ---
+Violation: Unmasked customer personal data (National ID numbers, full addresses, and last 3 months' spending habits) is being shared with a third-party vendor without proper encryption or anonymization.
+
+2. There are no other violations detected in the provided email logs."
+Llama-ENG Test2,Senaryo 1,27.14,0.05,3.41,3.74,"After reviewing the account statement, I have identified three suspicious/risky transactions:
+
+1. **Outbound SWIFT transfer to Sokha Trading (KHM-Cambodia) on April 9th**: This transaction is suspicious because it is an international wire transfer of a large amount (150,000 TRY), which could be indicative of money laundering or terrorist financing activities.
+
+2. **Multiple ATM withdrawals at Muratpasa/Antalya branch on April 10th**: These transactions are risky because they involve repeated and substantial cash withdrawals from the same location, which may indicate an attempt to launder or hide large amounts of cash.
+
+3. **Instant transfers to CryptoExchange TR on multiple occasions on April 6th**: These transactions are suspicious because they are a series of rapid, large-scale (4,999 TRY each) instant transfers to an unknown recipient, which could be indicative of illegal activities such as cryptocurrency-related fraud or money laundering.
+
+Each of these transactions stands out due to its unusual nature and potential connection to illicit activities."
+Llama-ENG Test2,Senaryo 2,13.39,-0.07,3.41,9.28,"{
+""Customer_Name"": ""Elif Yilmaz"",
+""Requested_Amount"": 350000,
+""Monthly_Net_Income"": 58000
+}
+{
+""Customer_Name"": ""Kemal Demir"",
+""Requested_Amount"": 900000,
+""Monthly_Net_Income"": 1195000 / 12
+}
+{
+""Customer_Name"": ""Zeynep Celik"",
+""Requested_Amount"": 450000,
+""Monthly_Net_Income"": 100000
+}"
+Llama-ENG Test2,Senaryo 3,31.38,-0.06,3.43,5.13,"After reviewing the email logs as an Information Security Expert, I have identified the following violations:
+
+1. **MAIL 3**: This communication contains a data leak violation due to the unmasked transmission of sensitive customer information (National ID numbers, full addresses, and spending habits) to a third-party vendor without proper encryption or anonymization.
+
+2. NO VIOLATION: **MAIL 1** does not contain any violations as it is an internal email with attachments and sender/receiver information within the organization's network. The email content does not disclose sensitive customer data or violate GDPR regulations.
+
+3. NO VIOLATION (partially): **MAIL 2** does not contain any direct violations, but it may be considered a partially compliant communication in terms of GDPR due to its generic nature and lack of specific information about the bank's data processing activities. However, the email is primarily informational and does not disclose sensitive customer data.
+
+It is essential for the organization to implement robust security measures and policies to prevent data breaches and ensure compliance with regulatory requirements. Specifically, they should consider implementing encryption for emails containing sensitive customer information and ensuring that third-party vendors handle such data securely. Additionally, training employees on data protection best practices and conducting regular security audits would be beneficial in preventing cybersecurity violations."
+Llama-ENG Test3,Senaryo 1,36.89,-0.08,3.44,3.21,"After analyzing the account statement, I have identified three suspicious/ risky transactions:
+
+1. **Instant Transfer (Recipient: CryptoExchange TR)** on 06.04.2026 with a total amount of 19,996 TRY (4 x 4,999 TRY): This transaction is suspicious because it involves a large and repeated transfer to an unknown recipient, which may indicate fraudulent activity or money laundering.
+2. **OUTBOUND SWIFT (Recipient: Sokha Trading, KHM-Cambodia)** on 09.04.2026 with an amount of 150,000 TRY: This transaction is risky because it involves a large international payment to a foreign entity without any clear indication of the purpose or recipient, which may indicate illegal activities such as money laundering or terrorist financing.
+3. **Three consecutive Physical ATM Withdrawals (Muratpasa/Antalya)** on 10.04.2026 with amounts of 10,000 TRY each: This transaction is suspicious because it involves a large and repetitive cash withdrawal from an ATM, which may indicate illegal activities such as drug trafficking or other criminal activities.
+
+Each of these transactions appears to be unusual and potentially risky due to the large amounts involved, unclear recipient information, or repeated patterns."
+Llama-ENG Test3,Senaryo 2,13.28,0.09,3.44,9.28,"{""Customer_Name"": ""Elif Yilmaz"", ""Requested_Amount"": 350000, ""Monthly_Net_Income"": 58000}
+{""Customer_Name"": ""Kemal Demir"", ""Requested_Amount"": 900000, ""Monthly_Net_Income"": 1195000/12}
+{""Customer_Name"": ""Zeynep Celik"", ""Requested_Amount"": 450000, ""Monthly_Net_Income"": 100000}"
+Llama-ENG Test3,Senaryo 3,32.3,-0.01,3.42,6.2,"As a senior bank risk and data analyst, I have reviewed the email logs provided and identified potential cybersecurity, GDPR, and internal data leak violations. Here are my findings:
+
+1. --- MAIL 1 ---
+The communication contains an internal data leak violation: The sender shares sensitive customer information (VIP Customer Deposit Balances and Risk Report list) via personal email with an external recipient, potentially putting the bank's customers' privacy at risk.
+
+2. --- MAIL 2 ---
+This email does not contain a cybersecurity, GDPR, or internal data leak violation. It is an informational email about a new Privacy Policy and Data Processing Agreement, which complies with the Personal Data Protection Law (GDPR).
+
+3. --- MAIL 3 ---
+The communication contains an internal data leak violation: The sender shares sensitive customer information (National ID numbers, full addresses, and last 3 months' spending habits) via unencrypted email to a third-party vendor without proper encryption or masking, potentially exposing customers' personal data.
+
+In summary, two of the three emails have potential violations:
+
+* MAIL 1: Internal data leak due to sharing sensitive customer information externally.
+* MAIL 3: Internal data leak due to sharing sensitive customer information without proper encryption or masking to a third-party vendor."
